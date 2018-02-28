@@ -1,0 +1,16 @@
+{
+  "name": "windows-spi",
+  "version": "0.0.8",
+  "author": "Tomasz Szafrański",
+  "description": "Exposes SystemParametersInfo in Node",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.7.0"
+  },
+  "scripts": {
+    "test": "node test/testmodule.js"
+  },
+  "gypfile": true
+}
